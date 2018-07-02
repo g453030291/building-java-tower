@@ -32,7 +32,9 @@ Spring Cloud Eureka:
 
 3.不向eureka注册自己：eureka.client.register-with-eureka:false
 
-​	eureka的自我保护机制：eureka会和已经注册在自己这里的服务保持心跳连接，如果心跳连接出现异常（掉线，服务关闭）等情况，eureka会计算一个比率，然后提示在注册中心中。但是，eureka不会将这个服务摘除，而是继续去尝试调用该服务。
+4.表示自己就是注册中心，职责是维护服务实例，不需要去检索服务：eureka.client.fetch-registry:false
+
+​	eureka的自我保护机制：eureka会和已经注册在自己这里的服务保持心跳连接，如果心跳连接出现异常（掉线，服务关闭）等情况，eureka会计算一个比率，然后提示在注册中心中。但是，eureka不会将这个服务摘除，而是继续去尝试调用该服务。（默认90秒没有收到心跳连接，就摘除该服务）
 
 ​	禁用eureka的自我保护机制（注意：只能在开发环境使用此配置）：eureka.server.enable-self-preservation:false
 
