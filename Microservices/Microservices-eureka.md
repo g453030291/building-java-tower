@@ -44,6 +44,8 @@ Spring Cloud Eureka:
 
 2.配置注册中心地址:eureka.client.server-url.defaultZone
 
+3.为了使服务更好区分，可以给当前服务起别名：eureka.instance.instance-id
+
 #### Eureka的高可用（集群）：
 
 server端向其他eureka注册自己，以实现高可用：eureka.client.server-url.defaultZone：其他eureka的地址
