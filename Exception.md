@@ -2,7 +2,7 @@
 
 Java中所有异常和错误的超类是Throwable，它有两个字类Error和Exception。
 
-![Throwable.png](https://github.com/g453030291/building-java-tower/tree/master/images/Throwable.png)
+![Throwable.png](https://github.com/g453030291/building-java-tower/blob/master/images/Throwable.png)
 
 Error是严重到系统不能处理的系统类错误，如：内存溢出、虚拟机错误、栈溢出等。这类错误一般由硬件引起，通常通知系统去处理，程序无法捕获处理。
 
