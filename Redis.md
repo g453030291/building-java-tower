@@ -96,7 +96,7 @@ redis对事物的支持：部分支持
 
 锁：watch
 
-![Redis锁、事务.png]()
+![Redis锁、事务.png](https://github.com/g453030291/building-java-tower/tree/master/images/Redis锁、事务.png)
 
 主从复制：slaveof 主库IP 主库端口
 
