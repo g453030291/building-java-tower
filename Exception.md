@@ -23,3 +23,29 @@ RuntimeException是Exception的子类。是那些可能在java虚拟机运行期
 ##### 二：非检查异常(unchecked exceptions)
 
 ​	Error类或者RuntimeException类及其子类，为非检查异常。
+
+#### try-with-resource
+
+​	对于try-finally这种形式的代码，可以使用jdk1.7新增的try-with-resource方式来代替，这种方式需要resource实现AutoCloseable接口，实现资源的自动释放。
+
+例：
+
+ ```java
+public static void main(String[] args) {
+        try(Connection conn =new Connection()) {
+            conn.sendData();
+        }catch(Exception e) {
+            e.printStackTrace();
+        }
+    }
+ ```
+
+之前使用的try-finally形式，如果有多个异常抛出，只能看到最后的异常，之前的异常会被丢失，无法查看。使用try-with-resource形式，可以避免这种问题，并且无需显示关闭资源，jdk会为你自动加上finally块来close你所使用的所有的资源。
+
+ 
+
+ 
+
+ 
+
+ 
