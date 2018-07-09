@@ -14,6 +14,8 @@ build、ship、run
 
 #### HelloWorld：
 
+systemctl start docker：启动docker
+
 docker pull name：拉取远程镜像
 
 docker images：查看本地所有镜像
