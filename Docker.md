@@ -48,3 +48,21 @@ apt-get update
 #运行成功后，在输入第一条命令运行
 ```
 
+#### 制作自己的镜像：
+
+Dockerfile：告诉docker制作镜像的步骤
+
+docker build：来执行dockerfile里面的步骤
+
+##### 步骤：
+
+①：新建Dockerfile文件
+
+②：第一行：from 基础镜像名（java程序一般可以使用tomcat的镜像作为起点，也是自带jdk的）
+
+③：MAINTAINER 所有者的名字 联系方式
+
+④：COPY 文件名 tomcat的webapp路径
+
+⑤：使用（docker build -t jpress：latest）来构建镜像
+
