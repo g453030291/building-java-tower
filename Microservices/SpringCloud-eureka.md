@@ -24,6 +24,16 @@ Spring Cloud Eureka:
 
 ​	-Eureka Client  服务注册
 
+#### 什么是Eureka？
+
+Eureka使用的是C-S架构（客户端-服务端）
+
+两大组件：Eureka Server（提供注册服务）、 Eureka Client（JAVA客户端，负责发送心跳）
+
+Eureka是AP的设计
+
+Zookeeper是CP的设计
+
 #### Eureka Server的使用：
 
 1.启动类上加@EnableEurekaServer

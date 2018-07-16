@@ -183,3 +183,11 @@ th：可以使用任意属性，替换原有属性（比如th：id可以替换�
 
 可以直接在spring容器中添加@bean，来添加到spring容器中，来实现SpringMVC的定制。例：可以自己实现一个ViewResolver（视图解析器，根据方法返回一个view对象（view来决定是转发/重定向））把这个类加上@bean注解，SpringBoot会自动读取你的配置，加入到SpringMVC的配置中，可以直接使用。
 
+#### 七、如何修改SpringBoot的默认配置
+
+①：SpringBoot的大量xxxAutoConfiguration类中，在自动配置的时候，都使用了@ConditionalOnMissingBean这个注解，这个注解可以判断，在容器中没有当前声明的对象时，才将默认配置，加载到容器中。如果有用户配置好的组件，就直接使用用户配置的组件来覆盖默认配置。如果某些组件，可以有多个，会将默认配置的和用户声明的结合起来（放进一个数组），同时存在。
+
+②：在SpringBoot中会有很多的xxxCustomizer帮助我们进行定制配置
+
+#### 八、SpringBoot的错误机制
+
