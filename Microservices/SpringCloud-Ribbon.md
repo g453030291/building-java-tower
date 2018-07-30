@@ -2,6 +2,10 @@ SpirngCloud实现的是软负载，通过Ribbon组件；
 
 用到Ribbon实现软负载的模块还有RestTemplate、Feign、Zuul
 
+#### Ribbon是什么？
+
+Ribbon是基于Netflix Ribbon实现的一套**客户端负载均衡工具**
+
 #### 核心：
 
 服务发现
@@ -27,22 +31,4 @@ product是对应的服务名
 
 
 
-
-#### Feign
-
-特点：
-
-声明式的REST客户端（feign的使用全都在客户端）
-
-采用了基于接口加注解的方式
-
-使用体验上，就像rpc一样，远程调用方法。但是其实feign内部还是使用的http，负载均衡还是使用的ribbon
-
-使用：
-
-启动主类上添加@EnableFeignClients（如果调用不到，需要在这个注解后加上basePackages=“扫描的包路径”）
-
-接口上添加注解@FeignClient（name="product"）
-
-在使用的地方，直接@autowire就可以使用。
 
