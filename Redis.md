@@ -101,3 +101,11 @@ redis对事物的支持：部分支持
 主从复制：slaveof 主库IP 主库端口
 
 查看当前redis配置详情：info replication
+
+#### Redis分布式锁
+
+两条重要命令：
+
+SETNX(set not exists)：如果key不存在，就创建成功，返回1；key存在，创建失败，返回0。
+
+GETSET：先get出，key返回，然后set进去新值
