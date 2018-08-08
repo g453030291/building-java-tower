@@ -109,3 +109,20 @@ redis对事物的支持：部分支持
 SETNX(set not exists)：如果key不存在，就创建成功，返回1；key存在，创建失败，返回0。
 
 GETSET：先get出，key返回，然后set进去新值
+
+#### Redis实践
+
+在linux环境下Redis可以直接通过源码编译安装。Windows下编译一般不那么方便，我们使用已经编译好的.msi安装包来安装。 首先找到Windows下的Redis安装包 打开官网下载页面找到"Windows"项然后点击“Learn more”,打开github项目 找到Redis安装包并下载 在上一步打开github页面中下拉找到README.md里面的"Redis on Windows"项，这里有一句”You can download the latest unsigned binaries and the unsigned MSI installer from the release page.“.点击”release page“打开下载页面，这里可以选择对应的版本下载。 这里我选择版本3.0.501然后在页面下点击“Redis-x64-3.0.501.msi"下载安装包 3安装Redis 下载Redis-x64-3.0.501.msi之后双击打开安装配置页面，一般来说默认即可，但是你要知道配置项的意思，根据具体情况配置。最后点击install即可安装。 启动Redis 安装之后发现安装目录F:\ProgramFiles\Redis有很多.exe文件。
+
+https://github.com/MicrosoftArchive/redis/releases
+
+启动：redis-server redis.conf
+启动客户端：redis-cli.exe -h 127.0.0.1 -p 6379
+
+redis启动不成功:
+1. redis-cli.exe
+2. shutdown
+3. exit
+
+
+查看redis数据数量：dbsize
