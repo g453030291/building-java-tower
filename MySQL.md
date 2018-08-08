@@ -1,4 +1,4 @@
-MySQL优化原则：
+#### MySQL优化原则
 
 1.全值匹配我最爱
 
@@ -22,7 +22,8 @@ MySQL优化原则：
 
 
 
-windows 下操作mysql（bin目录下）
+#### windows 下操作mysql（bin目录下）
+
 登录：mysql -u root -p
 启动：net start mysql
 停止：net stop mysql
@@ -31,3 +32,13 @@ windows 下操作mysql（bin目录下）
 查看mysql默认编码：show variables like 'character_set%';
 查看mysql默认字符集:show variables like 'character_set%';
 查看mysql版本：select version();
+
+
+
+#### mysql开启远程访问权限
+
+1.本地命令行界面连接mysql：mysql -u root -p
+2.选择mysql数据库：use mysql；
+3.配置某个ip使用账户/密码访问：GRANT ALL PRIVILEGES ON *.* to 'root'@'192.168.1.10' identified by '123456';
+4.刷新权限配置：flush privileges;
+5.查看权限状态：select host,user from user;
