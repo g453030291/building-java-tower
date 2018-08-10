@@ -20,5 +20,13 @@ true/false：是否向其他外部发送链路信息来实现链路监控
 
 spring.sleuth.samler.percentage：抽样的百分比。默认是0.1（表示10%）
 
+关键概念：
+
+traceID：全局的跟踪id，在入口生成traceID
+
+spanID：下一层的请求跟踪id
+
+parentID：上一层的请求跟踪id
+
 #### 分布式追踪系统：
 
