@@ -42,3 +42,20 @@
 3.配置某个ip使用账户/密码访问：GRANT ALL PRIVILEGES ON *.* to 'root'@'192.168.1.10' identified by '123456';
 4.刷新权限配置：flush privileges;
 5.查看权限状态：select host,user from user;
+
+
+
+
+
+#### Mysql的4种隔离级别：
+
+READ UNCOMMITTED:脏读，可以读到其他事务未提交的数据
+
+READ COMMITTED:读已经提交的数据（同一事物中，查询统一数据，结果可能不同）
+
+REPEATABLE READ（repeatable read）:mysql默认的隔离级别（同一事物里，查询同一数据结果一定相同）
+
+SERIALIZABLE（serializable）：线性的事务规则。所有事物要排队一一执行。
+
+
+
