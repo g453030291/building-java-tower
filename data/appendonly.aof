@@ -1,0 +1,352 @@
+*2
+$6
+SELECT
+$1
+0
+*3
+$3
+SET
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$141
+{"id":1,"loginCount":1,"nickname":"18535306177","password":"b7797cce01b4b131b433b6acf4add449","registerDate":1539867235000,"salt":"1a2b3c4d"}
+*3
+$9
+PEXPIREAT
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$13
+1542208657676
+*3
+$3
+SET
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$141
+{"id":1,"loginCount":1,"nickname":"18535306177","password":"b7797cce01b4b131b433b6acf4add449","registerDate":1539867235000,"salt":"1a2b3c4d"}
+*3
+$9
+PEXPIREAT
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$13
+1542208657760
+*3
+$3
+SET
+$11
+GoodsKey:gl
+$1248
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <!-- jquery -->
+    <script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="panel panel-default">
+    <div class="panel-heading">秒杀商品列表</div>
+    <table class="table" id="goodslist">
+        <tr><td>商品名称</td><td>商品图片</td><td>商品原价</td><td>秒杀价</td><td>库存数量</td><td>详情</td></tr>
+        <tr>
+            <td>iphoneX</td>
+            <td><img src="/img/iPhoneX.jpg" width="100" height="100"></td>
+            <td>8765.0</td>
+            <td>0.01</td>
+            <td>8</td>
+            <td><a href="/goods/to_detail/1">详情</a></td>
+        </tr>
+        <tr>
+            <td>华为Meta9</td>
+            <td><img src="/img/华为Mate9.jpg" width="100" height="100"></td>
+            <td>3212.0</td>
+            <td>0.01</td>
+            <td>10</td>
+            <td><a href="/goods/to_detail/2">详情</a></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
+*3
+$9
+PEXPIREAT
+$11
+GoodsKey:gl
+$13
+1542035917985
+*3
+$3
+SET
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$141
+{"id":1,"loginCount":1,"nickname":"18535306177","password":"b7797cce01b4b131b433b6acf4add449","registerDate":1539867235000,"salt":"1a2b3c4d"}
+*3
+$9
+PEXPIREAT
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$13
+1542208660297
+*3
+$3
+SET
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$141
+{"id":1,"loginCount":1,"nickname":"18535306177","password":"b7797cce01b4b131b433b6acf4add449","registerDate":1539867235000,"salt":"1a2b3c4d"}
+*3
+$9
+PEXPIREAT
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$13
+1542208660822
+*3
+$3
+SET
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$141
+{"id":1,"loginCount":1,"nickname":"18535306177","password":"b7797cce01b4b131b433b6acf4add449","registerDate":1539867235000,"salt":"1a2b3c4d"}
+*3
+$9
+PEXPIREAT
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$13
+1542208660986
+*3
+$3
+SET
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$141
+{"id":1,"loginCount":1,"nickname":"18535306177","password":"b7797cce01b4b131b433b6acf4add449","registerDate":1539867235000,"salt":"1a2b3c4d"}
+*3
+$9
+PEXPIREAT
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$13
+1542208661158
+*3
+$3
+SET
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$141
+{"id":1,"loginCount":1,"nickname":"18535306177","password":"b7797cce01b4b131b433b6acf4add449","registerDate":1539867235000,"salt":"1a2b3c4d"}
+*3
+$9
+PEXPIREAT
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$13
+1542208665067
+*2
+$3
+DEL
+$11
+GoodsKey:gl
+*3
+$3
+SET
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$141
+{"id":1,"loginCount":1,"nickname":"18535306177","password":"b7797cce01b4b131b433b6acf4add449","registerDate":1539867235000,"salt":"1a2b3c4d"}
+*3
+$9
+PEXPIREAT
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$13
+1542209212549
+*3
+$3
+SET
+$11
+GoodsKey:gl
+$1248
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>商品列表</title>
+    <!-- jquery -->
+    <script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="panel panel-default">
+    <div class="panel-heading">秒杀商品列表</div>
+    <table class="table" id="goodslist">
+        <tr><td>商品名称</td><td>商品图片</td><td>商品原价</td><td>秒杀价</td><td>库存数量</td><td>详情</td></tr>
+        <tr>
+            <td>iphoneX</td>
+            <td><img src="/img/iPhoneX.jpg" width="100" height="100"></td>
+            <td>8765.0</td>
+            <td>0.01</td>
+            <td>8</td>
+            <td><a href="/goods/to_detail/1">详情</a></td>
+        </tr>
+        <tr>
+            <td>华为Meta9</td>
+            <td><img src="/img/华为Mate9.jpg" width="100" height="100"></td>
+            <td>3212.0</td>
+            <td>0.01</td>
+            <td>10</td>
+            <td><a href="/goods/to_detail/2">详情</a></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
+*3
+$9
+PEXPIREAT
+$11
+GoodsKey:gl
+$13
+1542036472803
+*3
+$3
+SET
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$141
+{"id":1,"loginCount":1,"nickname":"18535306177","password":"b7797cce01b4b131b433b6acf4add449","registerDate":1539867235000,"salt":"1a2b3c4d"}
+*3
+$9
+PEXPIREAT
+$49
+MiaoshaUserKey:tk61b53d44e4e149dba494d34cd28d0b28
+$13
+1542209214331
+*3
+$3
+SET
+$12
+GoodsKey:gd1
+$2713
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情</title>
+    <!-- jquery -->
+    <script type="text/javascript" src="/js/jquery-1.9.1.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script type="text/javascript" src="/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="panel panel-default">
+    <div class="panel-heading">商品秒杀详情</div>
+    <div class="panel-body">
+        
+        <span>没有收货地址</span>
+    </div>
+    <table class="table" id="goodslist">
+        <tr>
+            <td>商品名称</td>
+            <td colspan="3">iphoneX</td>
+        </tr>
+        <tr>
+            <td>商品图片</td>
+            <td colspan="3"><img src="/img/iPhoneX.jpg" width="200" height="200"></td>
+        </tr>
+        <tr>
+            <td>秒杀开始时间</td>
+            <td>2018-10-31 08:31:09</td>
+            <td id="miaoshaTip">
+                <input type="hidden" id="remainSeconds" value="-1"/>
+                
+                
+                <span>秒杀已结束</span>
+            </td>
+            <td>
+                <form id="miaoshaForm" method="post" action="/miaosha/do_miaosha">
+                    <button class="btn btn-primary btn-block" type="submit" id="buyButton">立即秒杀</button>
+                    <input type="hidden" name="goodsId" value="1"/>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>商品原价</td>
+            <td colspan="3">8765.0</td>
+        </tr>
+        <tr>
+            <td>秒杀价</td>
+            <td colspan="3">0.01</td>
+        </tr>
+        <tr>
+            <td>库存数量</td>
+            <td colspan="3">8</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+<script>
+    $(function(){
+        countDown();
+    });
+
+    function countDown() {
+        var remainSeconds = $("#remainSeconds").val();
+        var timeout;
+        if(remainSeconds>0){//秒杀还没开始
+            $("#buyButton").attr("disabled",true);
+            timeout = setTimeout(function () {
+                $("#countDown").text(remainSeconds - 1);
+                $("#remainSeconds").val(remainSeconds - 1);
+                countDown();
+            },1000);
+        }else if(remainSeconds == 0){//秒杀进行中
+            $("#buyButton").attr("disabled",false);
+            if(timeout){
+                clearTimeout(timeout);
+            }
+            $("#miaoshaTip").html("秒杀进行中");
+        }else{//秒杀已经结束
+            $("#buyButton").attr("disabled",true);
+            $("#miaoshaTip").html("秒杀已经结束");
+        }
+    }
+
+
+</script>
+
+</html>
+*3
+$9
+PEXPIREAT
+$12
+GoodsKey:gd1
+$13
+1542036474365
+*2
+$3
+DEL
+$11
+GoodsKey:gl
+*2
+$3
+DEL
+$12
+GoodsKey:gd1
